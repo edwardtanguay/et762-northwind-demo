@@ -1,2 +1,2 @@
 - 1. display list of employees with firstname, lastname
-- .. 2. 
+- .. 2. display all employees from a specific city, send as parameter
