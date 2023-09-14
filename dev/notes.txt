@@ -1,1 +1,2 @@
-- .. display list of employees with firstname, lastname
+- 1. display list of employees with firstname, lastname
+- .. 2. 
