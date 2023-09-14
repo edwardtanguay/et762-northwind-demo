@@ -1,4 +1,4 @@
-import { DisplaySimpleEmployeeList } from './components/DisplaySimpleEmployeeList';
+import { DisplaySimpleEmployeeList, attachDisplaySimpleEmployeeListEvent } from './components/DisplaySimpleEmployeeList';
 import './style.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
@@ -6,4 +6,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
 		<h1>Northwind Demo</h1>
 		${DisplaySimpleEmployeeList()}
 	</div>
-`
+`;
+
+// attach events
+attachDisplaySimpleEmployeeListEvent();
